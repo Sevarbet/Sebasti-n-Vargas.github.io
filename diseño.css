@@ -1,0 +1,70 @@
+header{   
+    color: #ffffff;
+    align-items:center;
+  }
+
+body {
+    margin: 1cm;
+    background-image: url("imagenes/fondo.avif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 2cm;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+nav {
+    position: fixed; 
+    top: 0;
+    left: 0; 
+    width: 100%;
+    z-index: 1000;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(80, 68, 54);
+    padding: 1cm;
+  }
+  
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.5em;
+  }
+  
+.container {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    width: 80%;
+  }
+  
+.section {
+    width: 100%;
+    padding: 1cm;
+    margin: 1cm;
+    border: 5px solid rgb(132, 94, 78);
+    background-color: rgb(191, 140, 110);
+  }
+  
+  
+.section h1 {
+    color: #ffffff;
+  }
+
+footer {
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+  }
+
+table td{
+  background-color: rgb(112, 108, 180);
+  align-items: center;
+}
+  
